@@ -14,4 +14,10 @@ end
   @@all
 end 
 
+  def new_appointment(doctor, date)
+  end
+  
+  def appointments
+    Appointment.all.
+
 end
