@@ -28,10 +28,10 @@ def songs
   end
 end
 
-# def genres
-#   Song.all.select do |song|
-#     song.genre == self 
-#   end
-# end
+def genres
+  Song.all.select do |song|
+    song.genre == self 
+  end
+end
   
 end 
