@@ -29,8 +29,8 @@ def songs
 end
 
 def genres
-  Song.all.select do |song|
-    if song.artist == self
+  Song.all.each do |song|
+    if song.artist = self
       song.genre
     end
   end
