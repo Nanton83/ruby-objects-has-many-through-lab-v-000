@@ -13,7 +13,9 @@ class Appointment
   end
   
   def self.all
-    @@all
+    @@all.each do |appointment|
+      appointment
+    end 
   end
   
 end
