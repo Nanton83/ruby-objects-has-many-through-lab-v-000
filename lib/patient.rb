@@ -18,6 +18,7 @@ end
   end
   
   def appointments
-    Appointment.all.
+    Appointment.all.select do |appointment|
+      
 
 end
