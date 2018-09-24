@@ -19,6 +19,8 @@ end
   
   def appointments
     Appointment.all.select do |appointment|
-      
+      appointment.patient
+    end
+  end 
 
 end
