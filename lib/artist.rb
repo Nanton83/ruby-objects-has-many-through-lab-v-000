@@ -32,6 +32,7 @@ def genres
   Song.all.select do |song|
     if song.artist == self
       song.genre
+    end
   end
 end
   
