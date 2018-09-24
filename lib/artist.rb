@@ -29,7 +29,7 @@ def songs
 end
 
 def genres
-  Song.all.each do |song|
+  Song.all.collect do |song|
     if song.artist = self
       song.genre
     end
