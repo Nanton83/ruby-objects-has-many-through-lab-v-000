@@ -24,4 +24,7 @@ class Doctor
     end 
   end
   
+  def patients
+    Appointment.all
+  
   end 
