@@ -22,5 +22,12 @@ end
       appointment.patient == self
     end
   end 
+  
+  def doctors
+    Appointments.all.collect do |appointment|
+      appointment.doctor
+    end 
+  end 
+  
 
 end
