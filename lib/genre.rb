@@ -17,7 +17,9 @@ class Genre
   end
   
   def songs
-    Song.
+    Song.select do |song|
+      song.genre == self
+    end
   end
     
   
