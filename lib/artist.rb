@@ -29,7 +29,7 @@ def songs
 end
 
 def genres
-  Genre.songs.select do |song|
+  Genre.all.select do |genre|
     song.genre == self
   end
 end
